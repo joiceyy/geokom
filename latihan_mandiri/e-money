@@ -1,0 +1,35 @@
+class emoney:
+  def __init__(self, id, name, balance):
+    self.id = id
+    self.name = name
+    self.balance = balance
+
+  def check_balance(self):
+   return(self.balance)
+
+  def pay(self, amount):
+    self.balance = self.balance - amount
+    return self.balance
+
+  def top_up(self, amount):
+    self.balance = amount + self.balance
+    return self.balance
+
+
+tapcash = emoney('167492', 'tapcash', 43000)
+print('tapcash : ', tapcash.check_balance())
+
+print('tapcash : ', tapcash.pay(3000))
+print('tapcash : ', tapcash.top_up(40000))
+
+flash = emoney("09982982", "Flash", 100000)
+print("flash saldo : ", flash.check_balance())
+print("flash saldo : ", flash.pay(3000))
+print("flash saldo : ", flash.top_up(50000))
+print("flash saldo : ", flash.pay(100000))
+
+
+my_emoney = emoney("0998298219", "e-money", 3000)
+print("my_emoney saldo : ", my_emoney.check_balance())
+print("my_emoney saldo : ", my_emoney.top_up(10000))
+

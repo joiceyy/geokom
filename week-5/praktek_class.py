@@ -158,14 +158,14 @@
    "outputs": [
     {
      "ename": "NameError",
-     "evalue": "name 'Tahun' is not defined",
+     "evalue": "name 'tahun' is not defined",
      "output_type": "error",
      "traceback": [
       "\u001b[1;31m---------------------------------------------------------------------------\u001b[0m",
       "\u001b[1;31mNameError\u001b[0m                                 Traceback (most recent call last)",
       "Cell \u001b[1;32mIn[3], line 3\u001b[0m\n\u001b[0;32m      1\u001b[0m \u001b[38;5;66;03m# TUGAS SHIFT DCN\u001b[39;00m\n\u001b[0;32m      2\u001b[0m \u001b[38;5;66;03m# 1. buatlah class tahun dengan atribut (nama, jumlah_hari,jumlah_bulan) dengan input HARI = 30 dan BULAN = 12\u001b[39;00m\n\u001b[1;32m----> 3\u001b[0m \u001b[38;5;28;43;01mclass\u001b[39;49;00m\u001b[43m \u001b[49m\u001b[38;5;21;43;01mTahun\u001b[39;49;00m\u001b[43m:\u001b[49m\n\u001b[0;32m      4\u001b[0m \u001b[43m  \u001b[49m\u001b[38;5;28;43;01mdef\u001b[39;49;00m\u001b[43m \u001b[49m\u001b[38;5;21;43m__init__\u001b[39;49m\u001b[43m(\u001b[49m\u001b[38;5;28;43mself\u001b[39;49m\u001b[43m,\u001b[49m\u001b[43m \u001b[49m\u001b[43mnama\u001b[49m\u001b[43m,\u001b[49m\u001b[43m \u001b[49m\u001b[43mjumlah_hari\u001b[49m\u001b[43m,\u001b[49m\u001b[43m \u001b[49m\u001b[43mjumlah_bulan\u001b[49m\u001b[43m)\u001b[49m\u001b[43m:\u001b[49m\n\u001b[0;32m      5\u001b[0m \u001b[43m    \u001b[49m\u001b[38;5;28;43mself\u001b[39;49m\u001b[38;5;241;43m.\u001b[39;49m\u001b[43mnama\u001b[49m\u001b[43m \u001b[49m\u001b[38;5;241;43m=\u001b[39;49m\u001b[43m \u001b[49m\u001b[43mnama\u001b[49m\n",
-      "Cell \u001b[1;32mIn[3], line 12\u001b[0m, in \u001b[0;36mTahun\u001b[1;34m()\u001b[0m\n\u001b[0;32m     10\u001b[0m \u001b[38;5;28;01mdef\u001b[39;00m \u001b[38;5;21mhari_setahun\u001b[39m(\u001b[38;5;28mself\u001b[39m):\n\u001b[0;32m     11\u001b[0m    \u001b[38;5;28;01mreturn\u001b[39;00m \u001b[38;5;28mself\u001b[39m\u001b[38;5;241m.\u001b[39mjumlah_hari \u001b[38;5;241m*\u001b[39m\u001b[38;5;28mself\u001b[39m\u001b[38;5;241m.\u001b[39mjumlah_bulan\n\u001b[1;32m---> 12\u001b[0m tahun2024 \u001b[38;5;241m=\u001b[39m \u001b[43mTahun\u001b[49m(\u001b[38;5;124m'\u001b[39m\u001b[38;5;124m2024\u001b[39m\u001b[38;5;124m'\u001b[39m, \u001b[38;5;241m30\u001b[39m,\u001b[38;5;241m12\u001b[39m)\n\u001b[0;32m     13\u001b[0m \u001b[38;5;28mprint\u001b[39m(tahun2024\u001b[38;5;241m.\u001b[39mhari_setahun())\n",
-      "\u001b[1;31mNameError\u001b[0m: name 'Tahun' is not defined"
+      "Cell \u001b[1;32mIn[3], line 12\u001b[0m, in \u001b[0;36mTahun\u001b[1;34m()\u001b[0m\n\u001b[0;32m     10\u001b[0m \u001b[38;5;28;01mdef\u001b[39;00m \u001b[38;5;21mhari_setahun\u001b[39m(\u001b[38;5;28mself\u001b[39m):\n\u001b[0;32m     11\u001b[0m    \u001b[38;5;28;01mreturn\u001b[39;00m \u001b[38;5;28mself\u001b[39m\u001b[38;5;241m.\u001b[39mjumlah_hari \u001b[38;5;241m*\u001b[39m\u001b[38;5;28mself\u001b[39m\u001b[38;5;241m.\u001b[39mjumlah_bulan\n\u001b[1;32m---> 12\u001b[0m tahun2024 \u001b[38;5;241m=\u001b[39m \u001b[43mtahun\u001b[49m(\u001b[38;5;124m'\u001b[39m\u001b[38;5;124m2024\u001b[39m\u001b[38;5;124m'\u001b[39m, \u001b[38;5;241m30\u001b[39m,\u001b[38;5;241m12\u001b[39m)\n\u001b[0;32m     13\u001b[0m \u001b[38;5;28mprint\u001b[39m(tahun2024\u001b[38;5;241m.\u001b[39mhari_setahun())\n",
+      "\u001b[1;31mNameError\u001b[0m: name 'tahun' is not defined"
      ]
     }
    ],
@@ -181,7 +181,7 @@
     "# 2. Tambahkan fungsi hari_setahun untuk menghitung jumlah hari dalam satu tahun menggunakan atribut yang telah di inpu\n",
     "  def hari_setahun(self):\n",
     "     return self.jumlah_hari *self.jumlah_bulan\n",
-    "  tahun2024 = Tahun('2024', 30,12)\n",
+    "  tahun2024 = tahun('2024', 30,12)\n",
     "  print(tahun2024.hari_setahun())"
    ]
   },
@@ -240,6 +240,38 @@
     "  return(se)\n",
     "\n"
    ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 7,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "class emoney:\n",
+    "  def __init__(self, id, name, balance):\n",
+    "    self.id = id\n",
+    "    self.name = name\n",
+    "    self.balance = balance\n",
+    "\n",
+    "  def check_balance(self):\n",
+    "   return(self.balance) \n",
+    "\n",
+    "  def pay(self):\n",
+    "    self.balance = self.balance - pay\n",
+    "\n",
+    "  def top_up(self):\n",
+    "    self.balance = top_up + self.balance\n",
+    "\n",
+    "\n",
+    "kartu = emoney('8370474', 'brizzi', 65.000)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 5,
+   "metadata": {},
+   "outputs": [],
+   "source": []
   }
  ],
  "metadata": {

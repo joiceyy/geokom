@@ -16,7 +16,6 @@ apa ('apa ya?')
 # soal uts nanti
 def pangkat(a, b):
     c = a**b
-
     print('-----')
     return c
 pangkat(2,7)
@@ -29,11 +28,11 @@ def tambah(a, b):
     return c
 tambah (1,2)
 xy = pangkat(2,7)
-
 xy
 nomor = [1,5,7,6,4]
 for i in nomor :
     print (pangkat(i,2))
+    
 # SOAL UTS
 # BUATLAH FUNCTION UNTUK MENGHITUNG LUAS LINGKARAN
 def calc_circle_area(r):
@@ -47,7 +46,7 @@ grmin = 19
 grmax = 87
 vshale = (gr - grmin)/ (grmax - grmin)
 print(vshale)
-def vshale (gr, grmin, grmax):
+def vshale(gr, grmin, grmax):
 
     x = (gr - grmin)/(grmax - grmin)
     return x
